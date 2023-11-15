@@ -1,0 +1,9 @@
+ import math
+def haha(r):
+    c =2*math.pi*r
+    s=math.pi*r*r
+    return c,s
+r=int(input('ban kinh cua duong tron: '))
+c,s=haha(r)
+print(s)
+print(c)
